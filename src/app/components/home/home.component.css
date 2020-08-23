@@ -1,0 +1,86 @@
+
+.button1{
+    margin-top: 50%;
+    margin-left: 5%;
+    border-radius: 5%;
+    
+}
+.example-card {
+    margin-left: 5%;
+    margin-top: 2%;
+    max-width: 400px;
+  }
+  .example-card::hover, .example-card:active{
+    background: #0aabe1;
+    
+    }
+    
+    .example-card::hover{
+      transition: 0.6s ease;
+      -webkit-transition: 0.6s ease;
+      -moz-transition: 0.6s ease;
+      -o-transition: 0.6s ease;
+      -ms-transition: 0.6s ease;
+    }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .example-card1 {
+    margin-left: 1%;
+    margin-top: 2%;
+    max-width: 99%;
+  }
+  body {
+    background-color: #F5F5F5;
+}
+
+.flex-main {
+    -webkit-flex: 1 1 728px;
+    -ms-flex: 1 1 728px;
+    flex: 1 1 728px;
+    max-width: 728px;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}

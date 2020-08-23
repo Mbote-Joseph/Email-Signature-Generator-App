@@ -1,0 +1,231 @@
+<div style="background-image: url(../../../assets/images/wall4.jpg);  margin: 0px;">
+    <div class="container"  >
+       
+        <div class="row">
+            <div class="col">
+                <h1>Hi {{currentUser.firstName}}!</h1>
+                <h3>You're logged In</h3>
+                <h3>All registered users:</h3>
+                <ul>
+                    <li *ngFor="let user of users">
+                        {{user.username}} ({{user.firstName}} {{user.lastName}})
+                        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
+                    </li>
+                </ul>
+                   
+    <h1 style="font-size: 25px; font-family: Arial, Helvetica, sans-serif; color: #e57373; font-weight: 600; margin-top: 30%;">Increase you business value with intuitive Email Signature Generator.</h1>
+    
+    
+    <div class="button">
+        <mat-chip-list aria-label="Fish selection">
+    
+            <mat-chip mat-raised-button color="accent" selected routerLink="/create" style="height: 50px; width: 200px; font-size: 20px;">Create Signature</mat-chip>
+            <mat-chip style="background-color:#ff4d37;font-family:Red Hat Display;" selected routerLink="/templates" style="height: 50px; width: 200px; font-size: 20px;">Sample Template</mat-chip>
+          </mat-chip-list>
+          
+    </div>
+        
+                    </div>
+                    <div class="col">
+                        <mat-card class="example-card" style="margin-top: 100px; margin-bottom: 100px; background-color: #f7f7f7;">
+                            <mat-card-header>
+                                <mat-card-title style="font-size: 21px; font-family: Arial, Helvetica, sans-serif; color: rgb(64, 158, 255); font-weight: 600;">Email Template</mat-card-title>
+                             
+                            </mat-card-header>
+                            
+                            <mat-card-content>
+                                To : <br><hr>
+                                From : <hr>
+                                <div>
+                                    <table cellspacing="0" cellpadding="0" border="0" role="presentation" style="font-size: 0px; line-height: 1.5;">
+                                       <tbody>
+                                           <tr>
+                                            <td width="35%">
+                                                <img src="https://img.mysignature.io/p/6/5/9/65978094-291c-58bb-953f-3bac04d6fd46.png?time=1592495530" style="max-width: 100%;border:1px solid #FFFFFF" />
+                                            </td>
+                                               <td style="vertical-align: top;">
+                                                       <table cellspacing="0" cellpadding="0" border="0" role="presentation" style="font-size: 0px;">
+                                                           <tbody>
+                                                               <tr>
+                                                                   <td>
+                                                                       <span style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: rgb(64, 158, 255); font-weight: 700;">
+                                                           Matthew Murphy
+                                                       </span>
+                                                   </td>
+                                               </tr>
+                                               <tr>
+                                                   <td>
+                                                       <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif;">
+                                                           Founder 
+                                                       </span>
+                                                       <span>
+                                                           <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif;"> | </span>
+                                                           <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif;">CMS Hosting LLC</span>
+                                                       </span>
+                                                   </td>
+                                               </tr>
+                                               <tr>
+                                                   <td>
+                                                       <table cellspacing="0" cellpadding="0" border="0" role="presentation" style="margin-top: 5px; font-size: 0px;"><tr><td><span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: rgb(64, 158, 255); font-weight: 600;">Website: </span>
+                                                           <a href="http://johndoe.com" style="text-decoration: none; color: inherit; font-size: 12px; font-family: Arial, Helvetica, sans-serif;">cmshosting.xyz</a>
+                                                       </td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td>
+                                                           <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: rgb(64, 158, 255); font-weight: 600;">Email: </span>
+                                                           <a href="mailto:mail@jonhdoe.com" style="text-decoration: none; color: inherit; font-size: 12px; font-family: Arial, Helvetica, sans-serif;">mmurphy@cmshosting.xyz</a>
+                                                       </td>
+                                                   </tr>
+                                                   <tr>
+                                                       <td>
+                                                           <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: rgb(64, 158, 255); font-weight: 600;">Phone: </span>
+                                                           <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif;">833-CMS</span>
+                                                       </td>
+                                                   </tr>
+                                                   <tr>
+                                                    <td>
+                                                        <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: rgb(64, 158, 255); font-weight: 600;">Mobile: </span>
+                                                        <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif;">209-898-6435</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: rgb(64, 158, 255); font-weight: 600;">address: </span>
+                                                        <span style="font-size: 12px; font-family: Arial, Helvetica, sans-serif;">1334 S Center , CA 95206</span>
+                                                    </td>
+                                                </tr>
+                                               </table>
+                                           </td>
+                                       </tr>
+                                   </tbody>
+                               </table>
+                               </td>
+                               </tr>
+                               </tbody>
+                               </table>
+                              
+                               </div>
+                               <span class="example-spacer"></span>
+                              <img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/>
+                              <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+                              <img src="https://img.icons8.com/fluent/48/000000/twitter.png"/>
+                              <img src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png"/>
+                        
+                              
+                              
+                              <table cellspacing="0" cellpadding="0" border="0" role="presentation" style="font-size: 0px; margin-top: 10px;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span style="font-size: 10px; color: rgb(136, 136, 136); border-top: 1px solid rgb(238, 238, 238); padding-top: 5px;">
+                                                Email signature by <a href="https://mysigmail.com?ref=email">mysigmail.com</a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </mat-card-content>
+                            <mat-card-actions>
+                                <button color="accent" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                                    <mat-icon>favorite</mat-icon>
+                                  </button>
+                                  <button color="primary" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                                    <mat-icon>share</mat-icon>
+                                  </button>
+                            </mat-card-actions>
+                          </mat-card>
+                        
+                        
+                </div>  
+        </div>
+    </div> 
+    </div>
+    
+        <div style="text-align:center; "> 
+            <h1>ABOUT US</h1>
+        </div>
+        <header class="w3-container w3-theme w3-padding" id="myHeader">
+            <!-- <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>  -->
+            <div class="w3-center">
+            <h4>BEAUTIFUL & QUALITY EMAIL SIGNATURES</h4>
+            <h4>Using Angular</h4>
+            <h4>Genarate your Email Signature easy and Make the Email Proffesional</h4>
+            <h1 class="w3-xxxlarge w3-animate-bottom">By CMS hosting LLC</h1>
+              <div class="w3-padding-32">
+                <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" [routerLink]="['/templates']" style="font-weight:900;">Sample Signatures</button>
+              </div>
+            </div>
+          </header>
+          
+          <!-- Modal -->
+          <div id="id01" class="w3-modal">
+              <div class="w3-modal-content w3-card-4 w3-animate-top">
+                <header class="w3-container w3-theme-l1"> 
+                  <span onclick="document.getElementById('id01').style.display='none'"
+                  class="w3-button w3-display-topright">×</span>
+                  <h4>Oh snap! We just showed you a modal..</h4>
+                  <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+                </header>
+                <div class="w3-padding">
+                  <p>Cool huh? Ok, enough teasing around..</p>
+                  <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+                </div>
+                <footer class="w3-container w3-theme-l1">
+                  <p>Modal footer</p>
+                </footer>
+              </div>
+          </div>
+          
+          <div class="w3-row-padding w3-center w3-margin-top">
+          <div class="w3-third">
+            <div class="w3-card w3-container" style="min-height:460px">
+            <h3>Responsive</h3><br>
+            <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+            <p>Built-in responsiveness</p>
+            <p>Mobile first fluid grid</p>
+            <p>Fits any screen sizes</p>
+            <p>PC Tablet and Mobile</p>
+            </div>
+          </div>
+          
+          <div class="w3-third">
+            <div class="w3-card w3-container" style="min-height:460px">
+            <h3>Standard CSS</h3><br>
+            <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+            <p>Standard CSS only</p>
+            <p>Easy to learn</p>
+            <p>No need for jQuery</p>
+            <p>No JavaScript library</p>
+            </div>
+          </div>
+          
+          <div class="w3-third">
+            <div class="w3-card w3-container" style="min-height:460px">
+            <h3>Design</h3><br>
+            <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+            <p>Paper like design</p>
+            <p>Bold colors and shadows</p>
+            <p>Equal across platforms</p>
+            <p>Equal across devices</p>
+            </div>
+          </div>
+          </div>
+          
+          
+          <hr>
+          <div class="w3-center">
+            <h2>Pagination</h2>
+            <!-- Pagination -->
+            <div class="w3-center w3-padding-32">
+              <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-theme">«</a>
+                <a href="#" class="w3-bar-item w3-button w3-theme w3-hover-theme">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-theme">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-theme">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-theme">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-theme">5</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-theme">»</a>
+              </div>
+            </div>
+          </div>
+          <br>

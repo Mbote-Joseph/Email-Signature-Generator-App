@@ -1,0 +1,75 @@
+<div class="navbar" id="navbar" *ngIf="currentUser">
+  
+    <!-- <a href="#home" class="active" style="margin-top: 2%;">Home</a> -->
+    <a class="nav-item nav-link" routerLink="/">Home</a>
+    <a class="nav-item nav-link" (click)="logout()">Logout</a>
+    <span class="spacer"></span>
+    <span class="example-spacer"></span>
+    <a [routerLink]="['/templates']">Templates</a>
+    <a [routerLink]="['/create']">Generate Signature</a>
+    <a [routerLink]="['/login']">LogIn</a>
+    <a [routerLink]="['/register']">Register</a>
+    <!-- <a [routerLink]="['/dashboard']">Dashboard</a>
+    <a href="#about">About</a> -->
+    <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+    
+
+    <a href="javascript:void(0);" class="icon" (click)="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    
+  </div>
+  
+  <!-- #e57373 -->
+<!-- <mat-toolbar style="background-image: url(../../../assets/images/wall4.jpg);">
+    
+    <mat-toolbar-row>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"><mat-icon>menu</mat-icon></button>
+        <button mat-button routerLink=''><h1>Hi, Welcome to CMS Hosting !</h1></button>
+        
+        <span class="spacer"></span>
+        <span class="example-spacer"></span>
+        <button mat-button routerLink='/' style="font-size: large;">Home</button>
+        <button mat-button routerLink='/templates' style="font-size: large;">Template</button>
+        <button mat-button routerLink='/create' style="font-size: large;">Generate Signature</button>
+        <button mat-button routerLink='/home' style="font-size: large;">Login</button>
+        <button mat-button routerLink='/home' style="font-size: large;">Register</button>
+        <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+    </mat-toolbar-row>
+  </mat-toolbar> -->
+  <!-- <mat-toolbar style="background-color: #1976d2;">
+    
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>My App</span>
+      <mat-icon matBadge="" matBadgeColor="warn">home</mat-icon>
+      <span class="example-spacer"></span>
+      <div class="button">
+        <mat-chip-list aria-label="Fish selection">
+            
+            <mat-chip mat-raised-button color="primary" routerLink="/home" selected style="height: 50px; width: 200px; font-size: 20px;">MySignature</mat-chip>
+            <mat-chip color="primary" selected routerLink="/templates" style="height: 50px; width: 200px; font-size: 20px;">Templates</mat-chip>
+          </mat-chip-list>
+          
+        </div>
+        
+      <h1>Hi, Welcome to CMS Hosting !</h1>
+      <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+      <div class="example-button-container">
+        <button mat-fab color="primary" aria-label="Example icon button with a bookmark icon">
+          <mat-icon>bookmark</mat-icon>
+        </button>
+      </div>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <--<button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button> -->
+      
+      <!-- <mat-slide-toggle>LogIn</mat-slide-toggle>
+    
+    </mat-toolbar>  -->
+    
+    
