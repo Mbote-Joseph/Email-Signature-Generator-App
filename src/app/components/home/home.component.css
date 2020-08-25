@@ -1,14 +1,14 @@
 
 .button1{
-    margin-top: 50%;
+    margin-top: 20%;
     margin-left: 5%;
     border-radius: 5%;
     
 }
 .example-card {
-    margin-left: 5%;
+    margin-left: 15%;
     margin-top: 2%;
-    max-width: 400px;
+    max-width: 350px;
   }
   .example-card::hover, .example-card:active{
     background: #0aabe1;
@@ -33,7 +33,7 @@
   .example-card1 {
     margin-left: 1%;
     margin-top: 2%;
-    max-width: 99%;
+    max-width: 98%;
   }
   body {
     background-color: #F5F5F5;
