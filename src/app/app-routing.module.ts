@@ -12,12 +12,10 @@ const routes: Routes = [
     {path: '', component: ViewPageComponent },
     { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
     {path:'create', component:CreateComponent , canActivate: [AuthGuard]},
+    {path:'templates', component: TemplatesComponent, canActivate: [AuthGuard]},
     { path: 'login', component: LoginComponent },
     { path: 'register', component: RegisterComponent },
-    {path:'templates', component: TemplatesComponent},
-    
-
-    // otherwise redirect to home
+   // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
 
