@@ -33,6 +33,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {CdkScrollableModule} from '@angular/cdk/scrolling';
 import {ScrollingModule } from '@angular/cdk/scrolling';
 import {ClipboardModule} from '@angular/cdk/clipboard';
+import { ViewPageComponent } from './components/view-page/view-page.component';
 @NgModule({
     imports: [
         BrowserModule,
@@ -66,6 +67,7 @@ import {ClipboardModule} from '@angular/cdk/clipboard';
         HomeFooterComponent,
         NavbarComponent,
         TemplatesComponent,
+        ViewPageComponent,
         
     ],
     providers: [

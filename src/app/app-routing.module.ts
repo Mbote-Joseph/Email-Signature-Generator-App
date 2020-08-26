@@ -7,13 +7,13 @@ import { AuthGuard } from './_helpers';
 import { CreateComponent } from './components/create/create.component';
 import { TemplatesComponent } from './components/templates/templates.component';
 import { HomeComponent } from './components/home/home.component';
-
+import {ViewPageComponent} from './components/view-page/view-page.component';
 const routes: Routes = [
-    { path: '', component: HomeComponent, canActivate: [AuthGuard] },
+    {path: '', component: ViewPageComponent },
+    { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
+    {path:'create', component:CreateComponent , canActivate: [AuthGuard]},
     { path: 'login', component: LoginComponent },
     { path: 'register', component: RegisterComponent },
-    
-    {path:'create', component:CreateComponent},
     {path:'templates', component: TemplatesComponent},
     
 
