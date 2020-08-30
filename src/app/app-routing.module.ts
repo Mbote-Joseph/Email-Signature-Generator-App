@@ -13,8 +13,8 @@ const routes: Routes = [
     { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
     {path:'create', component:CreateComponent , canActivate: [AuthGuard]},
     {path:'templates', component: TemplatesComponent, canActivate: [AuthGuard]},
-    { path: 'login', component: LoginComponent },
-    { path: 'register', component: RegisterComponent },
+    { path: 'login', component: LoginComponent , canActivate: [AuthGuard]},
+    { path: 'register', component: RegisterComponent ,  canActivate: [AuthGuard]},
    // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
